@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="trayectoria" type="trayectoria_1.py" name="tortuga_1" />
+	<node pkg="trayectoria" type="trayectoria_2.py" name="tortuga_2" />
+	<node pkg="trayectoria" type="trayectoria_3.py" name="tortuga_3" />
+	<node pkg="trayectoria" type="trayectoria_4.py" name="tortuga_4" />
+	<node pkg="trayectoria" type="trayectoria_5.py" name="tortuga_5" />
+	<node pkg="trayectoria" type="trayectoria_6.py" name="tortuga_6" />
+</launch>
+

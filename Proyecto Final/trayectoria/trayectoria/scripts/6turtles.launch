@@ -1,0 +1,29 @@
+<launch>
+
+	<node pkg="turtlesim" type="turtlesim_node" name="el_turlesim" />
+
+	<node pkg="rosservice" type="rosservice" name="kill_turtle_1"
+ 	 args="call /kill 'turtle1'"/>
+ 
+	<node pkg="rosservice" type="rosservice" name="clear"
+ 	 args="call /clear"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle2"
+ 	 args="call /spawn 2.5 1.0 1.57 'turtle2'"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle3"
+ 	 args="call /spawn 4.0 1.0 1.57 'turtle3'"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle4"
+ 	 args="call /spawn 7.0 1.0 1.57 'turtle4'"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle5"
+ 	 args="call /spawn 8.5 1.0 1.57 'turtle5'"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle6"
+ 	 args="call /spawn 10.0 1.0 1.57 'turtle6'"/>
+
+	<node pkg="rosservice" type="rosservice" name="load_turtle1"
+ 	 args="call /spawn 1.0 1.0 1.57 'turtle1'"/>
+
+</launch>
