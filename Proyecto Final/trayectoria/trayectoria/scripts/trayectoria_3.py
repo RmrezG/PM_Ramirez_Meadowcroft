@@ -7,10 +7,36 @@ import math
 import time
 from std_srvs.srv import Empty
 
+
+x1 = 0
+y1 = 0
+z1 = 0
+theta1 = 0
+
+x2 = 0
+y2 = 0
+z2 = 0
+theta2 = 0
+
 x = 0
 y = 0
 z = 0
 theta = 0
+
+x4 = 0
+y4 = 0
+z4 = 0
+theta4 = 0
+
+x5 = 0
+y5 = 0
+z5 = 0
+theta5 = 0
+
+x6 = 0
+y6 = 0
+z6 = 0
+theta6 = 0
 
 def poseCallback1(pose_message):
     global x1
